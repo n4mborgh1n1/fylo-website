@@ -115,7 +115,7 @@ nav:hover {
 }
 
 #bgCurve {
-    margin: 0 0 4.4% -5.8%;
+    margin: 0 0 8.3vh -5.8%;
     z-index: 1000;
 
 }
@@ -189,7 +189,6 @@ span {
     gap: 25vh;
 
 }
-
 
 .signUpInfo {
     width: 35vw;
