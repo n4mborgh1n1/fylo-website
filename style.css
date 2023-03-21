@@ -222,10 +222,11 @@ span {
 
 #footerSection {
 
-    width: 100vw;
+    width: 100.1vw;
     height: 40vh;
     color: white;
     background-color: hsl(243, 87%, 12%);
-    margin-left: -4.7%;
+    margin-left: -5.9%;
 
 }
+
