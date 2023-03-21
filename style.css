@@ -1,0 +1,158 @@
+    body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+}
+
+main {
+    margin: 4% 0 0 5%;
+}
+
+.logo {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    margin: -5% 5% 0 0;
+    gap: 2rem;
+}
+
+nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.landingTitel {
+    margin-top: 12rem;
+}
+
+
+#intro {
+    margin-right: 60%;
+}
+
+.inputEmail {
+    width: 53%;
+    height: 2rem;
+    margin: 1.5rem 0 0 0;
+    border: 1px solid black;
+    padding-left: 3%;
+    border-radius: 2px;
+}
+
+.startBtn {
+    width: 31%;
+    height: 2.2rem;
+    margin-left: 2%;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.startBtn:hover {
+    background-color: hsl(224, 93%, 70%);
+    transition-duration: 1s;
+}
+
+.illu1, .illu2 {
+    width: 100%;
+    object-fit: contain;
+    margin: 5% 0 0 10%;
+}
+
+.illu2 {
+    margin: 0 20% 0 0;
+}
+
+
+#leftSide {
+    width: 520px;
+    height: 50rem;
+}
+
+#rightSide {
+    width: 620px;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+#leftSideBottom {
+    width: 70rem;
+    height: 25rem;
+}
+
+#rightSideBottom {
+    width: 70rem;
+    height: 25rem;
+}
+
+#wrapper {
+    display: flex;
+    gap: 5%;
+}
+
+#wrapperBottom {
+    width: 80rem;
+    height: 35rem;
+    display: flex;
+    gap: 5%;
+    background-color: hsl(240, 75%, 98%);
+    padding: 15%;
+    margin: -12% 0 0 -15%;
+}
+
+.bgCurve {
+    position: absolute;
+    top: 95%;
+    margin-left: -6%;
+}
+
+.introD {
+    color: hsl(170, 45%, 43%);
+    text-underline-offset: 10px;
+}
+
+.iconArrow {
+    position: relative;
+    top: 4px;
+}
+
+.infoSection {
+    margin-right: 5rem;
+}
+
+article {
+    margin-right: ;
+}
+
+#card {
+    margin-top: 50px;
+    width: 23rem;
+    height: 17rem;
+    color: hsl(238, 22%, 44%);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 78%, 0.235);
+    font-weight: 700;
+}
+
+footer {
+    margin: 4% 0 0 5%;
+
+}
+
+#avatar {
+    width: 10%;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
