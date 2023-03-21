@@ -3,6 +3,8 @@
     font-weight: 400;
     color: hsl(243, 87%, 12%);
     background-color: white;
+    overflow-x: hidden;
+
 }
 
 main {
@@ -107,15 +109,15 @@ nav:hover {
     height: 35rem;
     display: flex;
     gap: 5%;
-    background-color: hsl(240, 75%, 98%);
+    background-color: hsl(240, 85%, 98%);
     padding: 15%;
     margin: -12% 0 0 -15%;
 }
 
-.bgCurve {
-    position: absolute;
-    top: 95%;
-    margin-left: -6%;
+#bgCurve {
+    margin: 0 0 4.4% -5.8%;
+    z-index: 1000;
+
 }
 
 .introD {
@@ -177,7 +179,7 @@ span {
 
 
 #signUp {
-    width: 100vw;
+    width: 94.18vw;
     height: 40vh;
     color: white;
     background-color: hsl(238, 22%, 44%);
@@ -217,5 +219,4 @@ span {
     cursor: pointer;
     border-radius: 3px;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
-
 }
