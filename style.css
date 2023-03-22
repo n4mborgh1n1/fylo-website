@@ -15,6 +15,10 @@ main {
     margin: 0;
 }
 
+.logoFooter {
+    filter: invert(100%);
+}
+
 h1, #name {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -37,29 +41,31 @@ nav:hover {
     margin-top: 12rem;
 }
 
-
 #intro {
     margin-right: 60%;
 }
 
 .inputEmail {
     width: 53%;
-    height: 2rem;
+    height: vh;
     margin: 1.5rem 0 0 0;
     border: 1px solid black;
     padding-left: 3%;
-    border-radius: 2px;
+    border-radius: 3px;
+    font-size: 14px;
 }
 
 .startBtn {
     width: 31%;
-    height: 2.2rem;
+    height: .5vh;
     margin-left: 2%;
     color: white;
     background-color: hsl(224, 93%, 58%);
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+
 }
 
 .startBtn:hover, .startBtn2:hover {
@@ -109,7 +115,7 @@ nav:hover {
     height: 35rem;
     display: flex;
     gap: 5%;
-    background-color: hsl(250, 80%, 98%);
+    background-color: hsl(255, 40%, 98%);
     padding: 15%;
     margin: -12% 0 0 -15%;
 }
@@ -187,7 +193,6 @@ span {
     display: flex;
     gap: 25vh;
     margin-bottom: -10.5%;
-
 }
 
 .signUpInfo {
@@ -206,27 +211,32 @@ span {
     padding-left: 1rem;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
     margin: 1.9rem 0 1rem;
-
+    font-size: 14px;
 }
 
 .startBtn2 {
-    width: 40%;
-    height: 2.2rem;
+    width: 50%;
+    height: 5vh;
     color: white;
     background-color: hsl(224, 93%, 58%);
     border: none;
     cursor: pointer;
     border-radius: 3px;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
+    font-size: 14px;
+    padding: 0 1rem;
+
 }
 
 #footerSection {
-
     width: 100.1vw;
     height: 40vh;
     color: white;
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
-
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+}
