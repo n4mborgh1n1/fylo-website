@@ -17,6 +17,8 @@ main {
 
 .logoFooter {
     filter: invert(100%);
+    
+
 }
 
 h1, #name {
@@ -152,9 +154,6 @@ nav:hover {
     padding: 2rem 3rem 0 2rem;
 }
 
-footer {
-    margin: 4% 0 0 5%;
-}
 
 #authorSection {
     margin-top: 1.5rem;
@@ -230,13 +229,37 @@ span {
 
 #footerSection {
     width: 100.1vw;
-    height: 40vh;
+    height: 60vh;
     color: white;
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
+    display: flex;
 }
 
 .contact {
     display: flex;
     align-items: center;
+    margin-left: 2.5rem;
+}
+
+.contactIcon {
+    width: 15%;
+    line-height: 3rem;
+    margin-top: -95px;
+}
+
+footer {
+    margin: 4% 0 0 5%;
+}
+
+.footerLinks {
+    color: white;
+}
+
+.leftColumn {
+    margin: 17vh 11rem 0 7rem;
+}
+
+.midColumn, .rightColumn {
+    margin: 26.5vh 15rem 0 0;
 }
