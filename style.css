@@ -27,6 +27,11 @@ h1, #name {
     color: hsl(243, 87%, 12%);
 }
 
+section {
+    position: relative;
+    top: -0.5rem;
+}
+
 nav {
     display: flex;
     justify-content: end;
@@ -52,7 +57,7 @@ nav {
 .inputEmail {
     width: 53%;
     height: 5vh;
-    margin: 1.5rem 0 0 0;
+    margin: 1rem 0 0 0;
     border: 1px solid black;
     padding-left: 3%;
     border-radius: 3px;
@@ -80,7 +85,7 @@ nav {
 .illu1, .illu2 {
     width: 100%;
     object-fit: contain;
-    margin: 5vh 0 0 10vh;
+    margin: 5vh 0 0 5vh;
 }
 
 .illu2 {
@@ -107,6 +112,9 @@ nav {
 #rightSideBottom {
     width: 70rem;
     height: 25rem;
+    position: relative;
+    top: 10vh;
+    right: 4vw;
 }
 
 #wrapper {
@@ -261,9 +269,11 @@ footer {
 
 .leftColumn {
     margin: 17vh 11rem 0 7rem;
+    color: hsl(240, 75%, 98%);
 }
 
 .midColumn, .rightColumn {
     margin: 26.5vh 10vw 0 0;
+    color: hsl(240, 75%, 98%);
 }
 
