@@ -34,10 +34,12 @@ nav {
     gap: 2rem;
 }
 
-nav:hover {
+.f:hover, .t:hover, .s:hover { /* features, team, sign in hover */
     text-decoration: underline;
     cursor: pointer;
+    text-underline-offset: 5px;
 }
+
 
 .landingTitel {
     margin-top: 12rem;
@@ -234,6 +236,7 @@ span {
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
     display: flex;
+    margin-bottom: -100%;
 }
 
 .contact {
@@ -261,5 +264,6 @@ footer {
 }
 
 .midColumn, .rightColumn {
-    margin: 26.5vh 15rem 0 0;
+    margin: 26.5vh 10vw 0 0;
 }
+
