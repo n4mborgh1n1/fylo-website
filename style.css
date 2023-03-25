@@ -36,7 +36,7 @@ nav {
     display: flex;
     justify-content: end;
     margin: -5% 5% 0 0;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .f:hover, .t:hover, .s:hover { /* features, team, sign in hover */
@@ -56,7 +56,7 @@ nav {
 
 .inputEmail {
     width: 53%;
-    height: 5vh;
+    height: 6vh;
     margin: 1rem 0 0 0;
     border: 1px solid black;
     padding-left: 3%;
@@ -66,7 +66,7 @@ nav {
 
 .startBtn {
     width: 31%;
-    height: 5.5vh;
+    height: 6.5vh;
     margin-left: 2%;
     color: white;
     background-color: hsl(224, 93%, 58%);
@@ -194,8 +194,6 @@ span {
     font-weight: 700;
 }
 
-
-
 #signUp {
     width: 94.18vw;
     height: 35vh;
@@ -204,32 +202,35 @@ span {
     padding: 5rem 0 0 6vw;
     margin-left: -15%;
     display: flex;
+    justify-content: center;
     gap: 25vh;
     margin-bottom: -10.5%;
 }
 
 .signUpInfo {
     width: 35vw;
+    margin-left: -12vw;
 }
 
 .actionField {
-    width: 25vw;
+    width: 35vw;
+
 }
 
 .inputEmail2 {
     width: 34vw;
-    height: 5vh;
+    height: 6vh;
     border: none;
     border-radius: 3px;
     padding-left: 1rem;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
-    margin: 1.9rem 0 1rem;
+    margin: 1.9rem 0 2rem;
     font-size: 14px;
 }
 
 .startBtn2 {
-    width: 50%;
-    height: 5vh;
+    width: 15vw;
+    height: 6vh;
     color: white;
     background-color: hsl(224, 93%, 58%);
     border: none;
@@ -269,15 +270,19 @@ footer {
 
 .footerLinks {
     color: white;
+    text-decoration: none;
+}
+
+.footerLinks:hover {
+    color: hsl(224, 93%, 58%);
 }
 
 .leftColumn {
-    margin: 17vh 11rem 0 7rem;
+    margin: 17vh 11rem 0 5.5rem;
     color: hsl(240, 75%, 98%);
-}
+} 
 
 .midColumn, .rightColumn {
     margin: 26.5vh 10vw 0 0;
     color: hsl(240, 75%, 98%);
 }
-
