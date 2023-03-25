@@ -27,7 +27,7 @@ h1, #name {
     color: hsl(243, 87%, 12%);
 }
 
-section {
+.sectionOne {
     position: relative;
     top: -0.5rem;
 }
@@ -143,6 +143,10 @@ nav {
     text-underline-offset: 10px;
 }
 
+.introD:hover {
+    color: hsl(170, 56%, 59%);
+}
+
 .iconArrow {
     position: relative;
     top: 4px;
@@ -194,7 +198,7 @@ span {
 
 #signUp {
     width: 94.18vw;
-    height: 40vh;
+    height: 35vh;
     color: white;
     background-color: hsl(238, 22%, 44%);
     padding: 5rem 0 0 6vw;
