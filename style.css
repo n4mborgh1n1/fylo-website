@@ -208,7 +208,7 @@ span {
 
 .signUpInfo {
     width: 35vw;
-    margin-left: -12%;
+    margin-left: -11%;
 }
 
 .actionField {
@@ -277,7 +277,7 @@ footer {
 }
 
 .leftColumn {
-    margin: 9vh 11rem 0 5.5rem;
+    margin: 11vh 11rem 0 5.5rem;
     color: hsl(240, 75%, 98%);
 } 
 
@@ -285,3 +285,19 @@ footer {
     margin: 20.5vh 10vw 0 0;
     color: hsl(240, 75%, 98%);
 }
+
+#icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.fbIcon, .twitIcon, .instaIcon {
+    width: 30px;
+    filter: invert(100%);
+    position: relative;
+    top: 151vh;
+    left: 60vw;
+}
+
+
+
