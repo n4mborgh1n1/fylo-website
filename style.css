@@ -56,17 +56,17 @@ nav {
 
 .inputEmail {
     width: 53%;
-    height: 6vh;
+    height: 5vh;
     margin: 1rem 0 0 0;
     border: 1px solid black;
     padding-left: 3%;
     border-radius: 3px;
     font-size: 14px;
 }
-
+  
 .startBtn {
     width: 31%;
-    height: 6.5vh;
+    height: 5.5vh;
     margin-left: 2%;
     color: white;
     background-color: hsl(224, 93%, 58%);
@@ -219,7 +219,7 @@ span {
 
 .inputEmail2 {
     width: 34vw;
-    height: 6vh;
+    height: 5vh;
     border: none;
     border-radius: 3px;
     padding-left: 1rem;
@@ -230,7 +230,7 @@ span {
 
 .startBtn2 {
     width: 15vw;
-    height: 6vh;
+    height: 5vh;
     color: white;
     background-color: hsl(224, 93%, 58%);
     border: none;
