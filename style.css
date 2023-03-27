@@ -25,12 +25,15 @@ main {
 h1, #name {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 42px;
     color: hsl(243, 87%, 12%);
 }
 
 .sectionOne {
     position: relative;
     top: -0.5rem;
+    padding-right: 3rem;
+    font-size: 18px;
 }
 
 nav {
@@ -86,7 +89,7 @@ nav {
 .illu1, .illu2 {
     width: 100%;
     object-fit: contain;
-    margin: 5vh 0 0 5vh;
+    margin: 9vh 0 0 -7vh;
 }
 
 .illu2 {
@@ -95,7 +98,7 @@ nav {
 
 
 #leftSide {
-    width: 520px;
+    width: 720px;
     height: 50rem;
 }
 
