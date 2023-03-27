@@ -196,7 +196,7 @@ span {
 }
 
 #signUp {
-    width: 94.18vw;
+    width: 95vw;
     height: 30vh;
     color: white;
     background-color: hsl(238, 22%, 44%);
@@ -245,7 +245,7 @@ span {
 
 #footerSection {
     width: 100.1vw;
-    height: 55vh;
+    height: 380px;
     color: white;
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
@@ -264,6 +264,7 @@ span {
     width: 15%;
     line-height: 3rem;
     margin-top: -13vh;
+  
 }
 
 footer {
