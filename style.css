@@ -262,7 +262,7 @@ span {
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
     display: flex;
-     margin-bottom: -100%;
+    margin-bottom: -100%;
 }
 
 .logoFooter {
@@ -282,8 +282,10 @@ span {
 .contactIcon {
     width: 15%;
     line-height: 3rem;
-    margin-top: -14vh;
-    margin-left: -1vw;
+    position: relative;
+    bottom: 102px;
+    right: 15px;
+   
   
 }
 
