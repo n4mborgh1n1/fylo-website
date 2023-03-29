@@ -1,6 +1,7 @@
     body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 18px;
     color: hsl(243, 87%, 12%);
     background-color: white;
     overflow-x: hidden;
@@ -41,7 +42,6 @@ h1 {
     position: relative;
     top: -1rem;
     padding-right: 3rem;
-    font-size: 18px;
 }
 
 nav {
@@ -95,13 +95,12 @@ nav {
 }
 
 .illu1, .illu2 {
-    width: 100%;
+    width: 90%;
     object-fit: contain;
-    margin: 9vh 0 0 -7vh;
+    margin: 9vh 0 0 -5vh;
 }
 
 .illu2 {
-    width: 90%;
     position: relative;
     bottom: 13vh;
     left: 10vw;
@@ -168,19 +167,21 @@ nav {
 }
 
 .infoSection {
-    margin-right: 8rem;
+    margin-right: 3rem;
+
 }
 
 #card {
     margin-top: 50px;
-    width: 23rem;
+    width: 21rem;
     height: 13.5rem;
     color: hsl(238, 22%, 44%);
     background-color: white;
     border-radius: 10px;
     box-shadow: 10px 10px 10px hsla(0, 0%, 78%, 0.235);
     font-weight: 700;
-    padding: 2rem 3rem 0 2rem;
+    font-size: 14px;
+    padding: 2rem 2rem 0 2rem;
 }
 
 
@@ -266,7 +267,7 @@ span {
     margin-left: -5.9%;
     display: flex;
     justify-content: center;
-    margin-bottom: -100%;
+     margin-bottom: -100%;
 }
 
 .contact {
