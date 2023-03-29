@@ -16,13 +16,6 @@ main {
     margin: 0;
 }
 
-.logoFooter {
-    filter: invert(50%) sepia(100%) saturate(3555500%); /* changed svg file with dif colors to white // no clue what i did with the saturation but it worked */
-    position: relative;
-    top: 6rem;
-    left: 5.5rem;
-}
-
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -95,12 +88,13 @@ nav {
 }
 
 .illu1, .illu2 {
-    width: 90%;
+    width: 100%;
     object-fit: contain;
-    margin: 9vh 0 0 -5vh;
+    margin: 8vh 0 0 -8vh;
 }
 
 .illu2 {
+    width: 90%;
     position: relative;
     bottom: 13vh;
     left: 10vw;
@@ -174,7 +168,7 @@ nav {
 #card {
     margin-top: 50px;
     width: 21rem;
-    height: 13.5rem;
+    height: 26vh;
     color: hsl(238, 22%, 44%);
     background-color: white;
     border-radius: 10px;
@@ -226,7 +220,7 @@ span {
 
 .signUpInfo {
     width: 34vw;
-    margin-left: -8%;
+    margin-left: -10vw;
 }
 
 .actionField {
@@ -241,7 +235,7 @@ span {
     border-radius: 3px;
     padding-left: 1rem;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
-    margin: 1.9rem 0 2rem;
+    margin: 1.9rem 0 1.2rem;
     font-size: 14px;
 }
 
@@ -266,8 +260,14 @@ span {
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
     display: flex;
-    justify-content: center;
      margin-bottom: -100%;
+}
+
+.logoFooter {
+    filter: invert(50%) sepia(100%) saturate(3555500%); /* changed svg file with dif colors to white // no clue what i did with the saturation but it worked */
+    position: relative;
+    top: 10vh;
+    left: 5.5rem;
 }
 
 .contact {
@@ -280,7 +280,7 @@ span {
 .contactIcon {
     width: 15%;
     line-height: 3rem;
-    margin-top: -13vh;
+    margin-top: -14vh;
   
 }
 
@@ -298,12 +298,12 @@ footer {
 }
 
 .leftColumn {
-    margin: 24.5vh 11rem 0 -5.5vw;
+    margin: 20vh 11rem 0 -5.5vw;
     color: hsl(240, 75%, 98%);
 } 
 
 .midColumn, .rightColumn {
-    margin: 24.5vh 10vw 0 0;
+    margin: 20vh 10vw 0 0;
     color: hsl(240, 75%, 98%);
 
 }
@@ -321,6 +321,10 @@ footer {
     top: 152vh;
     left: 60vw;
     display: none;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 75%);
 }
 
 
