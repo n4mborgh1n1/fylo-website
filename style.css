@@ -90,7 +90,7 @@ nav {
 .illu1, .illu2 {
     width: 100%;
     object-fit: contain;
-    margin: 8vh 0 0 -8vh;
+    margin: 8vh 0 0 -5vh;
 }
 
 .illu2 {
@@ -168,7 +168,7 @@ nav {
 #card {
     margin-top: 50px;
     width: 21rem;
-    height: 26vh;
+    height: 190px;
     color: hsl(238, 22%, 44%);
     background-color: white;
     border-radius: 10px;
