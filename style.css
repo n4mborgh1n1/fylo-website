@@ -101,12 +101,15 @@ nav {
 }
 
 .illu2 {
-    margin: 0 20% 0 0;
+    width: 90%;
+    position: relative;
+    bottom: 13vh;
+    left: 10vw;
 }
 
 
 #leftSide {
-    width: 50vw;
+    width: 45vw;
     height: 50rem;
 }
 
@@ -117,8 +120,8 @@ nav {
 }
 
 #leftSideBottom {
-    width: 70rem;
-    height: 25rem;
+    width: 90vw;
+    height: 80vh;
 }
 
 #rightSideBottom {
@@ -165,7 +168,7 @@ nav {
 }
 
 .infoSection {
-    margin-right: 5rem;
+    margin-right: 8rem;
 }
 
 #card {
@@ -208,19 +211,20 @@ span {
 
 #signUp {
     width: 95vw;
-    height: 30vh;
+    height: 25vh;
     color: white;
     background-color: hsl(238, 22%, 44%);
-    padding: 5rem 0 0 6vw;
+    padding: 5vh 0 5vh 6vw;
     margin-left: -15%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 25vh;
     margin-bottom: -10.5%;
 }
 
 .signUpInfo {
-    width: 35vw;
+    width: 34vw;
     margin-left: -8%;
 }
 
@@ -261,6 +265,7 @@ span {
     background-color: hsl(243, 87%, 12%);
     margin-left: -5.9%;
     display: flex;
+    justify-content: center;
     margin-bottom: -100%;
 }
 
