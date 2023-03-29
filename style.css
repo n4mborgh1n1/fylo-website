@@ -222,12 +222,11 @@ span {
 
 .signUpInfo {
     width: 40vw;
-    margin-left: -6vw;
+    margin-left: -5vw;
 }
 
 .actionField {
-    width: 35vw;
-
+    width: 34vw;
 }
 
 .inputEmail2 {
@@ -268,8 +267,8 @@ span {
 .logoFooter {
     filter: invert(50%) sepia(100%) saturate(3555500%); /* changed svg file with dif colors to white // no clue what i did with the saturation but it worked */
     position: relative;
-    top: 10vh;
-    left: 5vw;
+    top: 80px;
+    left: 72px;
 }
 
 .contact {
@@ -286,7 +285,6 @@ span {
     bottom: 102px;
     right: 15px;
    
-  
 }
 
 footer {
@@ -303,12 +301,12 @@ footer {
 }
 
 .leftColumn {
-    margin: 20vh 11rem 0 -5.5vw;
+    margin: 20vh 15vw 0 -5.5vw;
     color: hsl(240, 75%, 98%);
 } 
 
 .midColumn, .rightColumn {
-    margin: 20vh 10vw 0 0;
+    margin: 20vh 15vw 0 0;
     color: hsl(240, 75%, 98%);
 
 }
