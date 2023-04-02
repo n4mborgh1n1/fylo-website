@@ -353,14 +353,21 @@ footer {
     }
 
     nav {
-        position: relative;
-        top: -2vh;
+            display: flex;
+            justify-content: end;
+            gap: 6%;
+            margin: -12% 5% 0 0;
+        
+        
     }
 
     .illu1 {
-        margin: 8vh 0vw 0 -35vh;
-        width: 180%;
+        display: block;
+        margin: 0 auto;
+        width: 180%; 
+        max-width: 800px;
     }
+    
 
     .landingTitel {
         position: relative;
