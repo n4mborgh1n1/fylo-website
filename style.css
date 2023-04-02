@@ -19,7 +19,7 @@ main {
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.2222222222222223em;
     color: hsl(243, 87%, 12%);
 }
 
@@ -31,7 +31,7 @@ h1 {
 #name {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 0.8888888888888888em;
     color: hsl(243, 87%, 12%);
 }
 
@@ -73,7 +73,7 @@ nav {
     border: 1px solid black;
     padding-left: 3%;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 0.7777777777777778em;
 }
   
 .startBtn {
@@ -85,7 +85,7 @@ nav {
     border: none;
     cursor: pointer;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 0.7777777777777778em;
 
 }
 
@@ -149,7 +149,7 @@ nav {
 }
 
 #bgCurve {
-    margin: 0 0 5vh -5.8%;
+    margin: -10vh 0 5vh -5.8%;
     z-index: 1000;
 
 }
@@ -183,7 +183,7 @@ nav {
     border-radius: 10px;
     box-shadow: 10px 10px 10px hsla(0, 0%, 78%, 0.235);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.7777777777777778em;
     padding: 2rem 2rem 0 2rem;
 }
 
@@ -208,7 +208,7 @@ nav {
 
 span {
     color: hsl(238, 22%, 44%);
-    font-size: 12px;
+    font-size:  0.7777777777777778em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -244,7 +244,7 @@ span {
     padding-left: 1rem;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
     margin: 0 0 1.2rem;
-    font-size: 14px;
+    font-size: 0.7777777777777778em;
 }
 
 .startBtn2 {
@@ -256,7 +256,7 @@ span {
     cursor: pointer;
     border-radius: 3px;
     box-shadow: 1px 1px 5px hsla(243, 87%, 12%, 0.663);
-    font-size: 14px;
+    font-size:  0.7777777777777778em;
     padding: 0 1rem;
 
 }
@@ -335,4 +335,8 @@ footer {
 
 ::placeholder {
     color: hsl(0, 0%, 75%);
+}
+
+@media only screen and (max-width: 768px) {
+
 }
