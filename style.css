@@ -349,7 +349,7 @@ footer {
     }
     
     .logo {
-        margin: 1vh 0 0 -1vh;
+        margin: 1vh 0 0 1vw;
         width: 25%;
         max-width: 200px;
     }
@@ -385,7 +385,6 @@ footer {
         width: 92vw;
         text-align: center;
         line-height: 1.7rem;
-        scale: 90%;
     }
 
     #bgCurve {
