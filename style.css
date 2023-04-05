@@ -349,21 +349,21 @@ footer {
     
     .logo {
         margin: 1vh 0 0 -2vh;
-        transform: scale(0.75);
+        width: 20%;
+        max-width: 200px;
     }
 
     nav {
             display: flex;
-            justify-content: end;
             gap: 6%;
-            margin: -12% 5% 0 0;
-        
+            font-size: 0.75em;
+            margin-top: -6.4vh ;
         
     }
 
     .illu1 {
         display: block;
-        margin: 0 auto;
+        margin: 10vh 0 0 -45vw;
         width: 180%; 
         max-width: 800px;
     }
