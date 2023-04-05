@@ -376,15 +376,16 @@ footer {
         right: 2vw;
         width: 90vw;
         text-align: center;
-        font-size: 28px;
+        font-size: 26px;
         line-height: 3rem;
     }
 
     .sectionOne {
         margin: 36vh 0 0 -3vw;
-        width: 92vw;
+        width: 90vw;
         text-align: center;
         line-height: 1.7rem;
+        font-size: 16px;
     }
 
     #bgCurve {
@@ -394,9 +395,10 @@ footer {
     .bgCurveMobile {
         display: block;
         width: 100%;
+        margin: 16vh 0 0 -3vw;
+        scale: 110%;
         height: auto;
-        background-image: url("images/bg-curve-mobile.svg");
-        margin: 25vh 0 0 0;
+        background-repeat: no-repeat;
     }
     
     .inputEmail {
@@ -410,5 +412,22 @@ footer {
         width: 78vw;
         height: 5%;
         margin: 3vh 0 0 4.4vw;
+    }
+
+    #wrapperBottom {
+        width: 90vw;
+        height: 35rem;
+        margin: -15% 0 0 -15%;
+    }
+
+    #leftSideBottom {
+        margin-top: 50vh;
+    }
+
+    .illu2 {
+        display: block;
+        margin: 10vh 0 0 -46vw;
+        width: 190%; 
+        max-width: 800px;
     }
 }
