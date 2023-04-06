@@ -346,6 +346,7 @@ footer {
 
     body {
         font-family: 'Open Sans', sans-serif;
+        overflow-x: hidden;
     }
     
     .logo {
@@ -429,11 +430,15 @@ footer {
         max-width: 19em; 
     }
 
-    .secHeading {
+    .secHeading, .accessTitel {
         font-size: 1em;
         text-align: center;
         right: 0.5em;
         margin-top: 3rem;
+    }
+    
+    .accessTitel {
+        margin: 0 0 1rem 0;
     }
 
     .infoSection {
@@ -441,6 +446,14 @@ footer {
         font-size: 1rem;
         scale: 95%;
         margin: 0 0 1rem -1rem;
+    }
+
+    .infoSection2 {
+        width: 20rem;
+        color: white;
+        font-size: 1rem;
+        scale: 95%;
+        margin: 0 0 1.5rem -2.5rem;
     }
     
     .introD {
@@ -466,6 +479,109 @@ footer {
 
     #iconQuotes {
         margin-bottom: -0.5em;
+    }
+
+    #signUp {
+        width: 94.6vw;
+        height: 16rem;
+        margin-left: -19%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 25vh;
+        margin-bottom: -10.5%;
+    }
+    
+    .signUpInfo {
+        width: 69vw;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    
+    .actionField {
+        width: 14rem;
+        margin: 0 auto;
+    }
+    
+    .inputEmail2 {
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        padding-left: 0.75rem;
+        margin: 0 0 0.75rem -1rem;
+        font-size: 0.75rem;
+    }
+    
+    .startBtn2 {
+        width: 105%;
+        font-size:  0.75rem;
+        margin-left: -1rem;
+    }
+    
+    #footerSection {
+        width: 111%;
+        height: 48rem;
+        color: white;
+        background-color: hsl(243, 87%, 12%);
+        margin-left: -8%;
+        display: flex;
+        margin-bottom: -100%;
+    }
+    
+    .logoFooter {
+        filter: invert(50%) sepia(100%) saturate(3555500%); /* changed svg file with dif colors to white // no clue what i did with the saturation but it worked */
+        position: relative;
+        top: 4rem;
+        left: 3rem;
+    }
+    
+    .contact {
+        display: flex;
+        align-items: center;
+        margin-left: -3.75rem;
+        margin-top: 1rem;
+    }
+    
+    .contactIcon {
+        width: 15%;
+        line-height: 3rem;
+        position: relative;
+        bottom: 6rem;
+        right: 6rem;
+       
+    }
+    
+    footer {
+        margin: 4% 0 0 4%;
+        font-size: 1rem;
+    }
+    
+    .footerLinks {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .leftColumn {
+        margin: 8rem 0 0 -1.3rem;
+        color: hsl(240, 75%, 98%);
+    } 
+    
+    .midColumn, .rightColumn {
+        margin: 3rem 0 0 0;
+        color: hsl(240, 75%, 98%);
+    
+    }
+    
+    #icons {
+        display: flex;
+        gap: 1rem;
+    
+    }
+
+    .columnContainer {
+        display: block;
+        margin: 15rem 0 0 -13.5rem;        
     }
 
 }
