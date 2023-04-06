@@ -62,7 +62,7 @@ nav {
     margin-top: 12rem;
     line-height: 3.5rem;
 }
-
+ 
 #intro {
     margin-right: 60%;
 }
@@ -96,13 +96,13 @@ nav {
 }
 
 .illu1, .illu2 {
-    width: 100%;
+    max-width: 100%;
     object-fit: contain;
     margin: 8vh 0 0 -5vh;
 }
 
 .illu2 {
-    width: 90%;
+    max-width: 90%;
     position: relative;
     bottom: 13vh;
     left: 10vw;
@@ -416,7 +416,7 @@ footer {
 
     #wrapperBottom {
         width: 90vw;
-        height: 35rem;
+        min-height: 60rem;
         margin: -15% 0 0 -15%;
     }
 
@@ -425,9 +425,47 @@ footer {
     }
 
     .illu2 {
-        display: block;
-        margin: 10vh 0 0 -46vw;
-        width: 190%; 
-        max-width: 800px;
+        margin: 5rem 0 0 -25rem;
+        max-width: 19em; 
     }
+
+    .secHeading {
+        font-size: 1em;
+        text-align: center;
+        right: 0.5em;
+        margin-top: 3rem;
+    }
+
+    .infoSection {
+        color: hsl(238, 22%, 44%);
+        font-size: 1rem;
+        scale: 95%;
+        margin: 0 0 1rem -1rem;
+    }
+    
+    .introD {
+        font-size: 0.9rem;
+        margin: 0 0 0 6rem;
+
+    }
+
+    #card {
+        margin-top: 50px;
+        width: 18.5rem;
+        height: 11rem;
+        margin-left: -0.5em;
+        scale: 90%;
+        padding: 1rem 2rem 0 1.9rem;
+    }
+
+    .quote {
+        width: 19.5rem;
+        font-size: 12px;
+        margin-bottom: -0.5em;
+    }
+
+    #iconQuotes {
+        margin-bottom: -0.5em;
+    }
+
 }
