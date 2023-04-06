@@ -567,10 +567,15 @@ footer {
         color: hsl(240, 75%, 98%);
     } 
     
-    .midColumn, .rightColumn {
-        margin: 3rem 0 0 0;
+    .midColumn {
+        margin: 18rem 0rem 0 -13.5rem;
         color: hsl(240, 75%, 98%);
     
+    }
+
+    .rightColumn {
+        margin: 32.5rem 0 0 -4.2rem;
+
     }
     
     #icons {
